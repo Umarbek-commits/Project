@@ -1,0 +1,131 @@
+/* Основные стили для документа */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Стили для заголовка страницы */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+/* Основное содержимое статьи */
+article {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+article p {
+    margin-bottom: 15px;
+}
+
+article ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+article ul li {
+    margin-bottom: 10px;
+}
+
+/* Секция с рекомендованными ссылками */
+section {
+    background: #f4f4f4;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+section ul {
+    padding-left: 20px;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+section ul li a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Подвал */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-flex;
+    gap: 10px;
+}
+
+footer ul li {
+    margin: 0;
+}
+
+footer ul li a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Адаптивный дизайн */
+@media (max-width: 768px) {
+    article, section {
+        margin: 10px;
+        padding: 15px;
+    }
+}

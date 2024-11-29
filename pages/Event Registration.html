@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration Form</title>
+</head>
+<body>
+    <nav>
+    <a href="/index.html">Home page </a>
+    <a href="Event Registration.html">Registration</a>
+   <a href="./about.html">About</a>
+    <a href="./contact.htm">Contact</a>
+    <a href="./Table.html">Lesson schedule</a>
+    <link rel="stylesheet" href="/css/Event Registration.css">
+</nav>
+<h2>Event Registration Form</h2>
+<form action="/submit" method="POST">
+  
+    <label for="fullName">Full Name:</label>
+    <input type="text" id="fullName" name="fullName" required>
+    <br><br>
+    
+    
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
+    <br><br>
+    
+    
+    <label for="password">Password (Required, minimum 8 characters):</label>
+    <input type="password" id="password" name="password" minlength="8" required>
+    <br><br>
+    
+   
+    <label for="eventDate">Event Date:</label>
+    <input type="date" id="eventDate" name="eventDate">
+    <br><br>
+    
+    
+    <label for="eventType">Event Type:</label>
+    <select id="eventType" name="eventType" required>
+        <option value="">Choose from them</option>
+        <option value="workshop">Math</option>
+        <option value="seminar">Physics</option>
+    </select>
+    <br><br>
+    
+    <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
+
